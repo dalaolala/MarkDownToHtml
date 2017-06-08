@@ -14,7 +14,7 @@
 <body>
 <div class="content">
     <ul class="venus-menu">
-        <li><a href="#"><i class="icon-home"></i>Home</a></li>
+        <li><a href="javascript:void(0);" onclick="getMardown('home')"><i class="icon-home"></i>Home</a></li>
         <li><a href="#"><i class="icon-magic"></i>Linux</a>
             <ul>
                 <li><a href="javascript:void(0);" onclick="getMardown('centos')">Centos云服务器配置</a></li>
@@ -23,13 +23,17 @@
                 </li>
             </ul>
         </li>
+        <li><a href="#"><i class="icon-wrench"></i>工具</a>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="getMardown('vs_code')">VS Code</a></li>
+                </li>
+            </ul>
+        </li>
         <li class="search">
             <form method="get">
                 <input type="text" name="search" class="search" placeholder="Search"/></form>
         </li>
     </ul>
-    <p style="display:none">Lorem ipsum dolor dit amet</p>
-    <p style="display:none">Lorem ipsum dolor dit amet</p>
 </div>
 <xmp id="md" theme="readable" style="display:none;">
 </xmp>
